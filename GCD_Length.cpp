@@ -31,19 +31,7 @@ using namespace std;
 #define A first
 #define B second
 #define lb long double
-#define vecin(v,n,x) for(ll i=0;i<n;i++){  cin>>x; v.pb(x);}
-#define vecout(v) for(auto itr:v) cout<<itr<<" ";nl
-#define oset tree<ll, null_type,less<ll>, rb_tree_tag,tree_order_statistics_node_update> 
-#define all(x) x.begin(),x.end()
-#define sz(x) x.size()
-#define setpre(x) cout<<setprecision(x)<<fixed
-#define mn LONG_LONG_MIN
-#define mx LONG_LONG_MAX
-#define N 1000000
-#define Yes cout<<"Yes\n";
-#define No cout<<"No\n";
-#define YES cout<<"YES\n";
-#define NO cout<<"NO\n";
+
 
 void __print(int x) {cerr << x;}
 void __print(long x) {cerr << x;}
